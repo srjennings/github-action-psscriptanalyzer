@@ -27,7 +27,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: lint
-      uses: devblackops/github-action-psscriptanalyzer@master
+      uses: srjennings/github-action-psscriptanalyzer@master
       with:
         repoToken: ${{ secrets.GITHUB_TOKEN }}
 ```
@@ -47,7 +47,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: lint
-      uses: devblackops/github-action-psscriptanalyzer@master
+      uses: srjennings/github-action-psscriptanalyzer@master
       with:
         rootPath: MyModule
         settingsPath: pssa_settings.psd1
@@ -72,7 +72,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: lint
-      uses: docker://devblackops/github-action-psscriptanalyzer:2.2.0
+      uses: docker://srjennings/github-action-psscriptanalyzer:2.2.1
       with:
         repoToken: ${{ secrets.GITHUB_TOKEN }}
 ```
