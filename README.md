@@ -93,5 +93,5 @@ jobs:
 
 ![](media/example.png)
 
-[github-actions-badge]: https://github.com/devblackops/github-action-psscriptanalyzer/workflows/CI/badge.svg
-[github-actions-build]: https://github.com/devblackops/github-action-psscriptanalyzer/actions
+#[github-actions-badge]: https://github.com/devblackops/github-action-psscriptanalyzer/workflows/CI/badge.svg
+#[github-actions-build]: https://github.com/devblackops/github-action-psscriptanalyzer/actions
